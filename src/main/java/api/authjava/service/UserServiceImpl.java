@@ -31,7 +31,7 @@ public class UserServiceImpl implements UserService {
         if(updateUser.isPresent()){
             User upUser = updateUser.get();
             upUser.setFullName(user.getFullName());
-//            upUser.setImage(user.getImage());
+            upUser.setImage(user.getImage());
             upUser.setOrigin(user.getOrigin());
             upUser.setPosition(user.getPosition());
             upUser.setSex(user.getSex());
