@@ -26,7 +26,6 @@ public class UserWithOutPass {
     private String image;
 
     @NotBlank
-    @Size(max = 8)
     @NotNull
     private String sex;
 
