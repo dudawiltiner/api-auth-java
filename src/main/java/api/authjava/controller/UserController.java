@@ -18,7 +18,7 @@ import javax.validation.Valid;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:3001", "http://localhost:8080", "https://pokemon-marketplace-accenture.herokuapp.com"})
 @RequestMapping("/users")
 public class UserController {
         @Autowired
